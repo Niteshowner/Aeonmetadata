@@ -68,7 +68,7 @@ if len(BOT_TOKEN) == 0:
 
 bot_id = BOT_TOKEN.split(':', 1)[0]
 
-DATABASE_URL = environ.get('DATABASE_URL', '')
+DATABASE_URL = environ.get('DATABASE_URL', 'mongodb+srv://gojomerge:5exfugtttf@cluster0.mefkdax.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 if len(DATABASE_URL) == 0:
     DATABASE_URL = ''
 
