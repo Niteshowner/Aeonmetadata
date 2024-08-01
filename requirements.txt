@@ -30,6 +30,7 @@ telegraph
 tenacity
 tgcrypto
 urllib3
+yt-dlp==2023.10.13
 uvloop
 xattr
-yt-dlp
+
